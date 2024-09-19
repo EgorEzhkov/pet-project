@@ -1,0 +1,12 @@
+.songsContainer {
+  margin-top: 150px;
+  min-height: 100vh;
+  padding: 0 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 80px;
+  justify-content: center;
+  align-content: start;
+}

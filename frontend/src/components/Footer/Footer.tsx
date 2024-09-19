@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.listContainer}>
-        <h3 className={styles.title}>Контактная информация</h3>
+        <h3 className={styles.description}>Контактная информация</h3>
         <p className={styles.listElement}>Email: lalala@la.la</p>
         <p className={styles.listElement}>
           Номер телефона:{" "}

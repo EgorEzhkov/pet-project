@@ -10,8 +10,8 @@ const Header: React.FC = () => {
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
-
-    if (currentScrollY > scrollY) {
+    console.log(currentScrollY);
+    if (currentScrollY > 120 && currentScrollY > scrollY) {
       setDirection("down");
     } else {
       setDirection("up");
