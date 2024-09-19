@@ -3,7 +3,7 @@
   position: absolute;
   left: 10%;
   animation-name: logoMoving;
-  animation-duration: 5000ms;
+  animation-duration: 10000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -40,10 +40,6 @@
 .listElement {
   cursor: pointer;
   transition: 0.2s;
-}
-
-.listElement:hover {
-  transform: scale(1.1);
 }
 
 .userContainer {

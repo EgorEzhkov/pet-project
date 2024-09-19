@@ -1,4 +1,5 @@
-import Header from "../Header/Header";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 import styles from "./App.module.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header></Header>
       <div className={styles.testContainer}></div>
+      <Footer></Footer>
     </>
   );
 }

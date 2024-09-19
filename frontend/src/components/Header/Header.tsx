@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Logo from "../shared/ui/logo/Logo";
+import Logo from "../../shared/ui/logo/Logo";
 
 import styles from "./Header.module.css";
-import UserLogo from "../shared/ui/UserLogo/UserLogo";
+import UserLogo from "../../shared/ui/UserLogo/UserLogo";
 
 const Header: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);

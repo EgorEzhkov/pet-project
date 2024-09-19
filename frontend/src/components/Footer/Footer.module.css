@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  max-height: 250px;
+  background-color: #484848;
+  color: #c5c5c5;
+  padding: 20px 10%;
+  gap: 20px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.title {
+  margin: 0;
+  font-size: 15px;
+}
+
+.listElement {
+  margin: 8px 0;
+  font-size: 12px;
+  list-style: none;
+}
+
+.linkElement {
+  text-decoration: none;
+  color: unset;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.description {
+  margin: 0 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.unicText {
+  font-size: 12px;
+  font-style: italic;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.socialContainter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+}
+
+.border {
+  border-top: 3px solid #5f5f5f;
+}
