@@ -5,7 +5,6 @@
   text-align: center;
 }
 
-.testContainer {
-  height: 500px;
-  background-color: rgba(97, 97, 97, 0.432);
+.app {
+  background-color: #2c2c2c;
 }

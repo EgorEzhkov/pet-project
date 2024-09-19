@@ -2,7 +2,7 @@
   width: 250px;
   height: 300px;
   border-radius: 15%;
-  border: 5px solid #7e7e7e;
+  border: 5px solid #c3073f;
   transition: all 0.15s ease-out;
   box-shadow: 0px 0px 29px -1px rgba(107, 107, 107, 0.37);
   object-fit: cover;
@@ -16,7 +16,12 @@
 .name {
   margin: 5px 0 0 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: normal;
+  color: #c3073f;
+}
+
+.name:nth-child(2) {
+  margin: 0 0 0 0;
 }
 
 .songCoverContainer {
@@ -52,9 +57,9 @@
 
 /* Сохраняем эффект hover на image, даже когда overlay видим */
 .imgContainer:hover .image {
-  border: 5px solid #8437ff;
+  border: 5px solid #950740;
   transform: scale(1.01);
-  box-shadow: 0px 0px 29px -1px rgba(0, 0, 0, 0.288);
+  box-shadow: 0px 0px 50px -5px #c3073fa8;
 }
 
 .buttonPlay {
@@ -62,16 +67,44 @@
   height: 50px;
   opacity: 0.5;
   cursor: pointer;
-  transition: all 0.2s ease-out;
+  transition: all 0.18s ease-out;
+  border-radius: 50%;
 }
 
 .buttonPlay:hover {
   opacity: 1;
   transform: scale(1.1);
+  box-shadow: 0px 0px 30px 5px #c3073fa9;
 }
 
 .noImage {
   width: 240px;
   display: flex;
   background-color: #85858583;
+}
+
+.moreInfoButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.moreInfoButton:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.author {
+  font-weight: 500;
+  font-size: 17px;
 }

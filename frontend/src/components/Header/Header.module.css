@@ -4,18 +4,21 @@
   left: 50px;
   top: 0;
   font-size: 50px;
+  padding-right: 40px;
+  border-right: 3px solid #c3073f;
+  height: 80px;
 }
 
 .headerContainer {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1440px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: #484848;
+  background-color: #1A1A1D;
   height: 80px;
   color: #c5c5c5;
   font-weight: 600;
