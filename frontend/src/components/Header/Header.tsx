@@ -39,7 +39,7 @@ const Header: React.FC = () => {
           alert("Будет перекидывать на главную страницу");
         }}
       >
-        <Logo></Logo>
+        𝕷𝖎𝖐𝖊𝕸𝖚𝖘𝖎𝖈
       </div>
       <ul className={styles.listContainer}>
         <li className={styles.listElement}>Главная</li>
