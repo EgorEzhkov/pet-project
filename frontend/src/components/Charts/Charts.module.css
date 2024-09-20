@@ -1,0 +1,28 @@
+.charts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1d;
+  padding: 100px 150px;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.songsContainer {
+  height: 550px;
+  width: 950px;
+  border: 2px solid #c3073f;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 4px #c3073fa9;
+  padding: 50px;
+}
+
+.songsList {
+  padding: 0;
+  margin: 0;
+}

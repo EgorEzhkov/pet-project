@@ -1,0 +1,29 @@
+.infoContainer {
+  background-color: #1a1a1d;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -130px;
+  bottom: 60px;
+  border: 2px solid #c3073f;
+  box-shadow: 0px 0px 29px -1px #c3073f;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.subtitle {
+  display: flex;
+  margin: 0;
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.subtitle:hover {
+  background-color: #37373b;
+}
