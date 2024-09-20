@@ -8,6 +8,8 @@
   margin: 3px;
   border: 2px solid transparent;
   position: relative;
+  border-bottom: 2px solid #c3073f;
+  border-radius: 10px;
 }
 
 .songContainer:hover {

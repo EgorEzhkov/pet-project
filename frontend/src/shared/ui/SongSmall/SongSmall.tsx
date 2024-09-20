@@ -9,11 +9,19 @@ const SongSmall = (props: SongCover) => {
   const [showInfo, setShowInfo] = useState<boolean>(false);
 
   return (
-    <div className={styles.songContainer}>
+    <div
+      className={styles.songContainer}
+      onMouseLeave={() => setShowInfo(false)}
+    >
       <div className={styles.coverContainer}>
         <img src={props.cover} alt="" className={styles.cover} />
         <div className={styles.overlay}></div>
-        <img src={playButton} alt="" className={styles.playButton} />
+        <img
+          src={playButton}
+          alt=""
+          className={styles.playButton}
+          onMouseEnter={() => setShowInfo(false)}
+        />
       </div>
       <img
         src={infoButton}
@@ -21,7 +29,14 @@ const SongSmall = (props: SongCover) => {
         className={styles.infoButton}
         onClick={() => setShowInfo(!showInfo)}
       />
-      {showInfo ? <SongInfo></SongInfo> : null}
+      {showInfo ? (
+        <div
+          onMouseEnter={() => setShowInfo(true)}
+          onMouseLeave={() => setShowInfo(false)}
+        >
+          <SongInfo></SongInfo>
+        </div>
+      ) : null}
       <div className={styles.textContainer}>
         <h3 className={styles.author}>{props.author}</h3>
         <h3 className={styles.name}>{props.name}</h3>
