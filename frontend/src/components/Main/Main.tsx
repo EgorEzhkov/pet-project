@@ -10,7 +10,7 @@ const Main = () => {
     <div className={styles.main}>
       <Header></Header>
       <Charts></Charts>
-      <Carusel></Carusel>
+      <Carusel deviceType="desktop"></Carusel>
       <ListSongs></ListSongs>
       <Footer></Footer>
     </div>
