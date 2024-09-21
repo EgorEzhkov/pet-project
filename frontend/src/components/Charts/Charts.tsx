@@ -10,7 +10,8 @@ const Charts = () => {
         <ul className={styles.songsList}>
           {testMassiveSongs.map((el, index) => {
             return index <= 9 ? (
-              <li className={styles.song}>
+              <li className={styles.song} key={index}>
+                <p className={styles.position}>{index + 1}</p>
                 <SongSmall
                   cover={el.cover}
                   name={el.name}

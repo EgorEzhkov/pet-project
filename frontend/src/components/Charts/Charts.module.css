@@ -9,7 +9,8 @@
 .title {
   margin: 0;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: bold;
+  color: #c5c5c5;
   margin-bottom: 15px;
 }
 
@@ -27,12 +28,24 @@
   margin: 0;
   display: flex;
   row-gap: 30px;
+  max-height: 600px;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  column-gap: 70px;
+  column-gap: 100px;
 }
 
 .song {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   list-style: none;
+}
+
+.position {
+  margin: 0 10px 0 0;
+  color: #c5c5c5;
+  font-size: 16px;
+  font-weight: 500;
 }

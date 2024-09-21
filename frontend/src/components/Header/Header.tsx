@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Logo from "../../shared/ui/logo/Logo";
 
 import styles from "./Header.module.css";
 import UserLogo from "../../shared/ui/UserLogo/UserLogo";
@@ -10,7 +9,6 @@ const Header: React.FC = () => {
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
-    console.log(currentScrollY);
     if (currentScrollY > 120 && currentScrollY > scrollY) {
       setDirection("down");
     } else {
