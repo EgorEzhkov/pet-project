@@ -1,14 +1,14 @@
 import styles from "./SongCover.module.css";
 import buttonPlay from "../../../assets/playButton.svg";
 import moreInfoButton from "../../../assets/moreInfoButton.svg";
-export interface SongCover {
+export interface ISongCover {
   cover: string;
   name: string;
   author: string;
   time?: string;
 }
 
-const SongCover = (props: SongCover) => {
+const SongCover = (props: ISongCover) => {
   return (
     <div className={styles.songCoverContainer}>
       <div className={styles.imgContainer}>
