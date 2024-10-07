@@ -1,11 +1,11 @@
 import styles from "./SongSmall.module.css";
-import { SongCover } from "../SongCover/SongCover";
+import { ISongCover } from "../SongCover/SongCover";
 import playButton from "../../../assets/playButton.svg";
 import infoButton from "../../../assets/moreInfoButton.svg";
 import SongInfo from "../SongInfo/SongInfo";
 import { useState } from "react";
 
-const SongSmall = (props: SongCover) => {
+const SongSmall = (props: ISongCover) => {
   const [showInfo, setShowInfo] = useState<boolean>(false);
 
   return (
